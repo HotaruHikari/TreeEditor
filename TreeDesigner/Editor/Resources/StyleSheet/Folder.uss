@@ -1,0 +1,53 @@
+#top {
+    flex-direction: row;
+}
+
+#folder-button {
+    width: 20px;
+    height: 20px;
+}
+
+.expanded#folder-button {
+    background-image: resource('Icon/d_icon dropdown@2x');
+}
+
+.collapsed#folder-button {
+    background-image: resource('Icon/d_icon dropdown close@2x');
+}
+
+#folder-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.expanded#folder-icon {
+    background-image: resource('Icon/d_FolderOpened Icon');
+}
+
+.collapsed#folder-icon {
+    background-image: resource('Icon/d_Folder Icon');
+}
+
+#folder-title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+}
+
+#content {
+    left: 20px;
+}
+
+.expanded#content {
+}
+
+.collapsed#content {
+    display: none;
+}

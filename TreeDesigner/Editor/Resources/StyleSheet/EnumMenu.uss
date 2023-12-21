@@ -1,0 +1,40 @@
+.dropdownMenu {
+}
+
+#root {
+    flex-direction: row;
+}
+
+#label {
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    min-width: auto;
+    min-height: auto;
+    height: 100%;
+    background-color: rgb(81, 81, 81);
+}
+
+#title:hover {
+    background-color: rgb(88, 88, 88);
+}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/TreeDesigner/Editor/Resources/StyleSheet/Folder.uss" />
+    <ui:VisualElement name="top">
+        <ui:VisualElement name="folder-button" />
+        <ui:VisualElement name="folder-icon" />
+        <ui:Label display-tooltip-when-elided="true" name="folder-title" text="Folder Name" />
+    </ui:VisualElement>
+    <ui:VisualElement name="content" />
+</ui:UXML>
